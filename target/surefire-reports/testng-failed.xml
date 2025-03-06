@@ -10,6 +10,20 @@
           <include name="saucedemoTest"/>
         </methods>
       </class> <!-- SDET_SeleniumPractice.sauceDemoTest -->
+      <class name="SDET_SeleniumPractice.lambdaTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="lambdaTest"/>
+        </methods>
+      </class> <!-- SDET_SeleniumPractice.lambdaTest -->
+      <class name="SDET_SeleniumPractice.tutorialsNinjaTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="aatutorialsNinja"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- SDET_SeleniumPractice.tutorialsNinjaTest -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->
